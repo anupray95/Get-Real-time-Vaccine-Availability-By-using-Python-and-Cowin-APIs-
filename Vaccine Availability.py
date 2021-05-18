@@ -87,7 +87,7 @@ try:
                 flag = False
                 print("-> ",curr['name'],",",curr['block_name'],"Vaccine:",curr['vaccine'],"      Available**: ",curr['available_capacity'])
         if flag:
-            print("Sorry😢! No vaccine available")
+            print("Sorry! No vaccine available")
             print()
 except:
   print("Sorry! Cowin public API is not working currently. Try Again Later")
